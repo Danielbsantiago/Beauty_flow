@@ -48,8 +48,7 @@ const FEATURES = [
   {
     icon: RotateCcw,
     title: "Reativação",
-    text: "Identifique clientes que estão há muito tempo sem voltar e convide-os novamente.",
-    soon: true,
+    text: "Identifique automaticamente clientes que estão há muito tempo sem voltar e entre em contato pelo WhatsApp para estimular um novo agendamento.",
   },
 ];
 
@@ -59,7 +58,8 @@ export default function FeaturesSection() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <Reveal className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-            Tudo que seu salão precisa para automatizar os agendamentos.
+            Tudo que seu salão precisa para atender, agendar e reativar
+            clientes.
           </h2>
         </Reveal>
 

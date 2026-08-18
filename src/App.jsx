@@ -1,7 +1,11 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import ForgottenClientsSection from "./components/ForgottenClientsSection";
 import ProblemSection from "./components/ProblemSection";
+import EmptySlotsSection from "./components/EmptySlotsSection";
+import PillarsSection from "./components/PillarsSection";
 import SolutionSection from "./components/SolutionSection";
+import FinancialSimulationSection from "./components/FinancialSimulationSection";
 import FeaturesSection from "./components/FeaturesSection";
 import DemoSection from "./components/DemoSection";
 import BenefitsSection from "./components/BenefitsSection";
@@ -10,6 +14,7 @@ import AudienceSection from "./components/AudienceSection";
 import ResultsSection from "./components/ResultsSection";
 import WaitlistSection from "./components/WaitlistSection";
 import ScheduleDemoSection from "./components/ScheduleDemoSection";
+import PositioningSection from "./components/PositioningSection";
 import FAQ from "./components/FAQ";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
@@ -21,8 +26,12 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <ForgottenClientsSection />
         <ProblemSection />
+        <EmptySlotsSection />
+        <PillarsSection />
         <SolutionSection />
+        <FinancialSimulationSection />
         <FeaturesSection />
         <DemoSection />
         <BenefitsSection />
@@ -31,6 +40,7 @@ function App() {
         <ResultsSection />
         <WaitlistSection />
         <ScheduleDemoSection />
+        <PositioningSection />
         <FAQ />
         <FinalCTA />
       </main>

@@ -11,7 +11,7 @@ export default function MobileStickyBar() {
         className="flex w-full items-center justify-center gap-2 rounded-full bg-brand px-5 py-3.5 text-sm font-bold text-white shadow-[0_8px_24px_-6px_rgba(22,163,74,0.55)] transition-transform active:scale-[0.98]"
       >
         <Rocket className="size-4.5" />
-        Quero automatizar meu salão
+        Quero recuperar meus clientes
       </a>
     </div>
   );

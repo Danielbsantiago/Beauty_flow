@@ -10,7 +10,7 @@ export const SITE = {
 
   // Mensagem pré-preenchida enviada ao clicar nos CTAs principais.
   whatsappMessage:
-    "Olá! Quero automatizar o atendimento do meu salão com a BeautyFlow.",
+    "Olá! Quero recuperar os clientes que já conquistei com a BeautyFlow.",
 
   // TODO: troque pelo e-mail real de contato.
   email: "contato@beautyflow.com.br",

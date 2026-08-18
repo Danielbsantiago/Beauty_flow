@@ -13,22 +13,23 @@ export default function FinalCTA() {
       <div className="relative mx-auto max-w-3xl px-5 text-center sm:px-8">
         <Reveal>
           <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-            Seu salão pode atender mais clientes sem trabalhar mais horas.
+            Quantos clientes da sua base poderiam voltar?
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-white/65">
-            Automatize seu WhatsApp e deixe sua equipe focada no atendimento,
-            enquanto a plataforma cuida das conversas e agendamentos.
+            Descubra como o BeautyFlow pode ajudar seu salão a automatizar o
+            atendimento, aproveitar melhor sua agenda e criar novas
+            oportunidades com clientes que estão há muito tempo sem voltar.
           </p>
           <div className="mt-10">
             <Button
-              href={buildWhatsappLink()}
+              href={buildWhatsappLink("Olá! Quero conhecer o BeautyFlow.")}
               target="_blank"
               rel="noopener noreferrer"
               size="lg"
               icon={ArrowRight}
               className="px-9 py-5 text-lg"
             >
-              Quero automatizar meu salão
+              Quero conhecer o BeautyFlow
             </Button>
           </div>
           <p className="mt-5 text-sm text-white/45">

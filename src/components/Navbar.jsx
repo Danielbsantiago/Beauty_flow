@@ -49,7 +49,7 @@ export default function Navbar() {
 
         <div className="hidden lg:block">
           <Button href={buildWhatsappLink()} target="_blank" rel="noopener noreferrer">
-            Quero automatizar meu salão
+            Quero recuperar meus clientes
           </Button>
         </div>
 
@@ -85,7 +85,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="mt-3 w-full"
           >
-            Quero automatizar meu salão
+            Quero recuperar meus clientes
           </Button>
         </div>
       )}
