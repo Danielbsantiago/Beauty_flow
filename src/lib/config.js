@@ -5,8 +5,7 @@ export const SITE = {
   brand: "FluxoAI",
 
   // Número de WhatsApp para onde os CTAs vão apontar (formato internacional, só números).
-  // TODO: troque pelo número real do WhatsApp comercial.
-  whatsappNumber: "5500000000000",
+  whatsappNumber: "5561981787169",
 
   // Mensagem pré-preenchida enviada ao clicar nos CTAs principais.
   whatsappMessage: "Olá! Quero começar o teste grátis do FluxoAI.",
