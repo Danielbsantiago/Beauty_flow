@@ -18,7 +18,7 @@ export default function ReactivationSection() {
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-ink/55">
             Depois que um cliente compra, faz um pedido ou utiliza um
-            serviço através do sistema, o FluxoAI acompanha esse
+            serviço através do sistema, a Ondia acompanha esse
             relacionamento. Quando identifica que ele ficou algum tempo sem
             voltar, pode iniciar uma nova conversa.
           </p>
@@ -43,7 +43,7 @@ export default function ReactivationSection() {
 
             <div className="flex items-center gap-2 rounded-full bg-brand-soft px-4 py-2 text-xs font-semibold text-brand-2">
               <Radar className="size-4" />
-              FluxoAI identifica
+              Ondia identifica
             </div>
 
             <ArrowDown className="size-4 text-ink/25" />

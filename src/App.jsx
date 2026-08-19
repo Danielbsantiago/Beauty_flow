@@ -4,6 +4,7 @@ import PainFlowSection from "./components/PainFlowSection";
 import PainCardsSection from "./components/PainCardsSection";
 import SolutionSection from "./components/SolutionSection";
 import ReactivationSection from "./components/ReactivationSection";
+import CustomSetupSection from "./components/CustomSetupSection";
 import PricingSection from "./components/PricingSection";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
@@ -19,6 +20,7 @@ function App() {
         <PainCardsSection />
         <SolutionSection />
         <ReactivationSection />
+        <CustomSetupSection />
         <PricingSection />
         <FinalCTA />
       </main>

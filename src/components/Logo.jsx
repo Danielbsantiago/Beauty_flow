@@ -1,4 +1,5 @@
-import { Zap } from "lucide-react";
+import { Waves } from "lucide-react";
+import { SITE } from "../lib/config";
 
 export default function Logo({ className = "" }) {
   return (
@@ -7,9 +8,9 @@ export default function Logo({ className = "" }) {
       className={`inline-flex items-center gap-2 font-display font-bold text-xl text-ink ${className}`}
     >
       <span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand to-brand-2 text-canvas">
-        <Zap className="size-5" strokeWidth={2.5} fill="currentColor" />
+        <Waves className="size-5" strokeWidth={2.5} />
       </span>
-      Fluxo<span className="text-gradient">AI</span>
+      {SITE.brand}
     </a>
   );
 }

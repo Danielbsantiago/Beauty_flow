@@ -48,7 +48,7 @@ export default function Hero() {
 
           <Reveal delay={0.2}>
             <p className="text-balance mt-6 max-w-xl text-lg leading-relaxed text-ink/60">
-              O FluxoAI ajuda você a responder clientes, acompanhar
+              A Ondia ajuda você a responder clientes, acompanhar
               oportunidades, receber pedidos e agendamentos e manter o
               relacionamento com quem já comprou de você — mesmo quando você
               está ocupado.
@@ -58,7 +58,7 @@ export default function Hero() {
           <Reveal delay={0.3}>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <Button
-                href={buildWhatsappLink("Olá! Quero começar o teste grátis do FluxoAI.")}
+                href={buildWhatsappLink("Olá! Quero começar o teste grátis da Ondia.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 size="lg"

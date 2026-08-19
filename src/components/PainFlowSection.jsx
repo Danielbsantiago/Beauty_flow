@@ -46,7 +46,7 @@ export default function PainFlowSection() {
             Você não consegue estar em todos os lugares ao mesmo tempo.
           </p>
           <p className="mx-auto mt-2 max-w-md text-balance font-display text-lg font-semibold text-gradient">
-            É aí que o FluxoAI entra.
+            É aí que a Ondia entra.
           </p>
         </Reveal>
       </div>

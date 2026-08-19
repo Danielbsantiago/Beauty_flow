@@ -31,7 +31,7 @@ export default function PainCardsSection() {
                 Você está ocupado e demora para responder.
               </p>
               <p className="mt-3 text-sm leading-relaxed text-ink/70">
-                <span className="font-semibold text-ink">FluxoAI:</span>{" "}
+                <span className="font-semibold text-ink">Ondia:</span>{" "}
                 responde rapidamente e mantém o cliente avançando.
               </p>
             </div>
@@ -49,7 +49,7 @@ export default function PainCardsSection() {
                 O cliente demonstrou interesse, mas a conversa parou.
               </p>
               <p className="mt-3 text-sm leading-relaxed text-ink/70">
-                <span className="font-semibold text-ink">FluxoAI:</span>{" "}
+                <span className="font-semibold text-ink">Ondia:</span>{" "}
                 ajuda a acompanhar oportunidades e retomar conversas.
               </p>
             </div>
@@ -75,7 +75,7 @@ export default function PainCardsSection() {
                 Conduza cada cliente até o próximo passo.
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-ink/55">
-                O próximo passo depende do seu negócio. O FluxoAI ajuda o
+                O próximo passo depende do seu negócio. A Ondia ajuda o
                 cliente a chegar até ele.
               </p>
             </div>
@@ -94,7 +94,7 @@ export default function PainCardsSection() {
                 simplesmente desaparecem.
               </p>
               <p className="mt-3 text-sm leading-relaxed text-ink/70">
-                <span className="font-semibold text-ink">FluxoAI:</span>{" "}
+                <span className="font-semibold text-ink">Ondia:</span>{" "}
                 identifica clientes acompanhados pelo sistema que ficaram
                 algum tempo sem voltar e cria uma nova oportunidade de
                 contato.

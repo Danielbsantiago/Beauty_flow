@@ -16,7 +16,7 @@ export default function FinalCTA() {
             Você cuida do seu negócio.
           </h2>
           <p className="text-balance mt-2 font-display text-3xl font-bold tracking-tight text-gradient sm:text-4xl lg:text-5xl">
-            O FluxoAI cuida das oportunidades.
+            A Ondia cuida das oportunidades.
           </p>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink/55">
             Venda, receba pedidos, agende clientes e mantenha
@@ -24,7 +24,7 @@ export default function FinalCTA() {
           </p>
           <div className="mt-10">
             <Button
-              href={buildWhatsappLink("Olá! Quero começar o teste grátis do FluxoAI.")}
+              href={buildWhatsappLink("Olá! Quero começar o teste grátis da Ondia.")}
               target="_blank"
               rel="noopener noreferrer"
               size="lg"

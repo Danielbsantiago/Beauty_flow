@@ -99,7 +99,7 @@ function PlanCard({ plan }) {
 
       <div className="mt-8 pt-2 lg:mt-auto">
         <Button
-          href={buildWhatsappLink(`Olá! Quero começar o teste grátis do FluxoAI no plano ${plan.name}.`)}
+          href={buildWhatsappLink(`Olá! Quero começar o teste grátis da Ondia no plano ${plan.name}.`)}
           target="_blank"
           rel="noopener noreferrer"
           variant={plan.highlighted ? "primary" : "secondary"}
