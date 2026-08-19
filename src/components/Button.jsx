@@ -1,13 +1,9 @@
 const VARIANTS = {
   primary:
-    "bg-brand text-white shadow-[0_8px_24px_-6px_rgba(22,163,74,0.55)] hover:bg-brand-hover hover:shadow-[0_10px_28px_-6px_rgba(22,163,74,0.65)] hover:-translate-y-0.5 active:translate-y-0",
-  "primary-on-dark":
-    "bg-brand text-white shadow-[0_8px_24px_-6px_rgba(22,163,74,0.5)] hover:bg-brand-hover hover:-translate-y-0.5 active:translate-y-0",
+    "bg-gradient-to-r from-brand to-brand-2 text-canvas shadow-[0_8px_28px_-6px_rgba(139,108,255,0.55)] hover:shadow-[0_10px_32px_-6px_rgba(139,108,255,0.7)] hover:-translate-y-0.5 active:translate-y-0",
   secondary:
-    "bg-white text-ink border border-ink/12 hover:border-brand/40 hover:text-brand-dark hover:-translate-y-0.5 active:translate-y-0",
-  "secondary-on-dark":
-    "bg-white/5 text-white border border-white/25 hover:bg-white/10 hover:border-white/40 hover:-translate-y-0.5 active:translate-y-0",
-  ghost: "text-ink hover:text-brand-dark",
+    "bg-panel text-ink border border-line hover:border-brand/40 hover:-translate-y-0.5 active:translate-y-0",
+  ghost: "text-ink/70 hover:text-ink",
 };
 
 const SIZES = {

@@ -27,8 +27,8 @@ export default function Navbar() {
       id="topo"
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/90 shadow-[0_1px_0_0_rgba(23,32,51,0.06)] backdrop-blur-md"
-          : "bg-white/60 backdrop-blur-sm"
+          ? "border-b border-line bg-canvas/85 backdrop-blur-md"
+          : "bg-canvas/40 backdrop-blur-sm"
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
@@ -39,7 +39,7 @@ export default function Navbar() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-sm font-medium text-ink/70 transition-colors hover:text-brand-dark"
+                className="text-sm font-medium text-ink/65 transition-colors hover:text-ink"
               >
                 {link.label}
               </a>
@@ -49,7 +49,7 @@ export default function Navbar() {
 
         <div className="hidden lg:block">
           <Button href={buildWhatsappLink()} target="_blank" rel="noopener noreferrer">
-            Quero recuperar meus clientes
+            Começar teste grátis
           </Button>
         </div>
 
@@ -65,14 +65,14 @@ export default function Navbar() {
       </nav>
 
       {open && (
-        <div className="border-t border-ink/8 bg-white px-5 pb-6 pt-2 lg:hidden">
+        <div className="border-t border-line bg-canvas px-5 pb-6 pt-2 lg:hidden">
           <ul className="flex flex-col gap-1">
             {NAV_LINKS.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="block rounded-lg px-2 py-3 text-base font-medium text-ink/80 hover:bg-surface hover:text-brand-dark"
+                  className="block rounded-lg px-2 py-3 text-base font-medium text-ink/75 hover:bg-panel hover:text-ink"
                 >
                   {link.label}
                 </a>
@@ -85,7 +85,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="mt-3 w-full"
           >
-            Quero recuperar meus clientes
+            Começar teste grátis
           </Button>
         </div>
       )}
