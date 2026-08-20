@@ -17,8 +17,8 @@ export default function ReactivationSection() {
             Não deixe bons clientes serem esquecidos.
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-ink/55">
-            Mantenha o relacionamento e crie novas oportunidades com pessoas
-            que já conhecem seu negócio. A AutomatcIA acompanha os clientes
+            Mantenha o relacionamento e gere novos agendamentos e vendas com
+            pessoas que já conhecem seu negócio. A AutomatcIA acompanha os clientes
             que passam pelo sistema e, quando identifica que alguém ficou
             algum tempo sem voltar, pode iniciar uma nova conversa.
           </p>
@@ -59,7 +59,7 @@ export default function ReactivationSection() {
 
             <div className="flex items-center gap-2 rounded-full bg-gradient-to-r from-brand to-brand-2 px-4 py-2 text-xs font-bold text-canvas shadow-[0_8px_24px_-6px_rgba(139,108,255,0.5)]">
               <RotateCcw className="size-4" />
-              NOVA OPORTUNIDADE
+              NOVA VENDA
             </div>
           </div>
         </Reveal>

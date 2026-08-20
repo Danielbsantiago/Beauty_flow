@@ -23,7 +23,7 @@ const PLANS = [
   {
     name: "Avançado",
     price: "R$249",
-    description: "Para quem quer acompanhar mais oportunidades.",
+    description: "Para quem quer vender e agendar mais.",
     badge: "MAIS ESCOLHIDO",
     highlighted: true,
     features: [

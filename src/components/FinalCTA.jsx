@@ -16,11 +16,11 @@ export default function FinalCTA() {
             Você cuida do seu negócio.
           </h2>
           <p className="text-balance mt-2 font-display text-3xl font-bold tracking-tight text-gradient sm:text-4xl lg:text-5xl">
-            A AutomatcIA cuida das oportunidades.
+            A AutomatcIA cuida das vendas e agendamentos.
           </p>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink/55">
             Menos tarefas repetitivas, mais tempo para o que importa — e
-            mais oportunidades acompanhadas de perto.
+            mais clientes atendidos e convertidos.
           </p>
           <div className="mt-10">
             <Button

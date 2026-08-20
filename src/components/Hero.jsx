@@ -1,18 +1,9 @@
-import { Sparkles, ArrowRight, Compass, Mail, ShoppingCart, CalendarCheck, MessageCircle, RotateCcw, Star, Scissors, UtensilsCrossed, Bike, ShoppingBag, Wrench } from "lucide-react";
+import { Sparkles, ArrowRight, Compass, Scissors, UtensilsCrossed, Bike, ShoppingBag, Wrench } from "lucide-react";
 import Badge from "./Badge";
 import Button from "./Button";
-import PhoneFrame, { NotificationRow } from "./PhoneFrame";
+import PhoneFrame, { Bubble, TypingBubble } from "./PhoneFrame";
 import Reveal from "./Reveal";
 import { buildWhatsappLink } from "../lib/config";
-
-const NOTIFICATIONS = [
-  { icon: Mail, title: "Novo cliente", subtitle: "Ana começou uma conversa" },
-  { icon: ShoppingCart, title: "Novo pedido", subtitle: "Pedido #482 recebido" },
-  { icon: CalendarCheck, title: "Novo agendamento", subtitle: "Horário marcado para 14h" },
-  { icon: MessageCircle, title: "Conversa acompanhada", subtitle: "Follow-up enviado" },
-  { icon: RotateCcw, title: "Cliente reativado", subtitle: "Maria voltou após 74 dias" },
-  { icon: Star, title: "Feedback recebido", subtitle: "Avaliação de 5 estrelas" },
-];
 
 const NICHES = [
   { icon: Scissors, label: "Salões" },
@@ -42,15 +33,14 @@ export default function Hero() {
           <Reveal delay={0.1}>
             <h1 className="text-balance mt-6 font-display text-4xl font-bold leading-[1.12] tracking-tight text-ink sm:text-5xl lg:text-[3.3rem]">
               Você cuida do seu negócio. A AutomatcIA{" "}
-              <span className="text-gradient">cuida das oportunidades</span>.
+              <span className="text-gradient">cuida das vendas e agendamentos</span>.
             </h1>
           </Reveal>
 
           <Reveal delay={0.2}>
             <p className="text-balance mt-6 max-w-xl text-lg leading-relaxed text-ink/60">
-              Automatize atendimentos, acompanhe oportunidades e mantenha
-              seus clientes por perto — sem aumentar o trabalho da sua
-              equipe.
+              Automatize atendimentos, aumente vendas e realize agendamentos
+              — sem aumentar o trabalho da sua equipe.
             </p>
           </Reveal>
 
@@ -92,15 +82,28 @@ export default function Hero() {
             aria-hidden="true"
           />
           <PhoneFrame>
-            {NOTIFICATIONS.map((item, i) => (
-              <NotificationRow
-                key={item.title}
-                icon={item.icon}
-                title={item.title}
-                subtitle={item.subtitle}
-                delay={i * 150}
-              />
-            ))}
+            <Bubble from="client" time="09:41">
+              Oi! Gostaria de agendar um horário, vocês têm disponibilidade
+              essa semana?
+            </Bubble>
+            <Bubble from="assistant" time="09:41" delay={200}>
+              Olá! 😊 Claro, temos sim! Qual dia fica melhor pra você?
+            </Bubble>
+            <Bubble from="client" time="09:42" delay={400}>
+              Quinta-feira, se possível.
+            </Bubble>
+            <Bubble from="assistant" time="09:42" delay={600}>
+              Perfeito! Temos horários às 10h, 14h e 16h na quinta. Qual
+              prefere?
+            </Bubble>
+            <Bubble from="client" time="09:42" delay={800}>
+              14h está ótimo.
+            </Bubble>
+            <TypingBubble delay={950} />
+            <Bubble from="assistant" time="09:43" delay={1400}>
+              Combinado! ✅ Seu horário está confirmado para quinta-feira às
+              14h. Qualquer coisa, é só chamar!
+            </Bubble>
           </PhoneFrame>
         </Reveal>
       </div>

@@ -7,7 +7,7 @@ const STEPS = [
   { icon: Target, label: "Acompanha" },
   { icon: ShoppingCart, label: "Conduz", sub: "Comprar · Pedir · Agendar · Orçar" },
   { icon: Heart, label: "Mantém o relacionamento" },
-  { icon: RotateCcw, label: "Cria novas oportunidades" },
+  { icon: RotateCcw, label: "Traz o cliente de volta" },
 ];
 
 export default function SolutionSection() {
@@ -16,7 +16,7 @@ export default function SolutionSection() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-            Do primeiro contato à próxima oportunidade.
+            Do primeiro contato à próxima venda.
           </h2>
         </Reveal>
 

@@ -5,7 +5,7 @@ const FLOW = [
   { icon: Briefcase, label: "Você trabalhando" },
   { icon: MessageSquare, label: "Novas mensagens" },
   { icon: Hourglass, label: "Cliente esperando" },
-  { icon: XCircle, label: "Oportunidade perdida" },
+  { icon: XCircle, label: "Cliente perdido" },
 ];
 
 const PROBLEMS = [
@@ -23,7 +23,7 @@ const PROBLEMS = [
   },
   {
     icon: Eye,
-    title: "Oportunidades esquecidas",
+    title: "Vendas esquecidas",
     text: "Clientes interessados podem desaparecer quando ninguém acompanha o próximo passo.",
     solution: "acompanha e retoma o contato no momento certo.",
   },
@@ -41,7 +41,8 @@ export default function ProblemSection() {
       <div className="mx-auto max-w-5xl px-5 text-center sm:px-8">
         <Reveal>
           <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-            Você está ocupado. Suas oportunidades não precisam esperar.
+            Você está ocupado. Suas vendas e agendamentos não precisam
+            esperar.
           </h2>
         </Reveal>
 
