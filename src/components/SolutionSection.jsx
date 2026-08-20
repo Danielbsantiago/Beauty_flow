@@ -16,7 +16,7 @@ export default function SolutionSection() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-            Do primeiro contato à próxima compra.
+            Do primeiro contato à próxima oportunidade.
           </h2>
         </Reveal>
 

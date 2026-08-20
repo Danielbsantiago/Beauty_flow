@@ -41,30 +41,29 @@ export default function Hero() {
 
           <Reveal delay={0.1}>
             <h1 className="text-balance mt-6 font-display text-4xl font-bold leading-[1.12] tracking-tight text-ink sm:text-5xl lg:text-[3.3rem]">
-              Enquanto você trabalha, seu negócio{" "}
-              <span className="text-gradient">continua vendendo</span>.
+              Você cuida do seu negócio. A AutomatcIA{" "}
+              <span className="text-gradient">cuida das oportunidades</span>.
             </h1>
           </Reveal>
 
           <Reveal delay={0.2}>
             <p className="text-balance mt-6 max-w-xl text-lg leading-relaxed text-ink/60">
-              A Ondia ajuda você a responder clientes, acompanhar
-              oportunidades, receber pedidos e agendamentos e manter o
-              relacionamento com quem já comprou de você — mesmo quando você
-              está ocupado.
+              Automatize atendimentos, acompanhe oportunidades e mantenha
+              seus clientes por perto — sem aumentar o trabalho da sua
+              equipe.
             </p>
           </Reveal>
 
           <Reveal delay={0.3}>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <Button
-                href={buildWhatsappLink("Olá! Quero começar o teste grátis da Ondia.")}
+                href={buildWhatsappLink("Olá! Quero começar grátis por 7 dias na AutomatcIA.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 size="lg"
                 icon={ArrowRight}
               >
-                Começar teste grátis
+                Começar grátis por 7 dias
               </Button>
               <Button href="#como-funciona" variant="secondary" size="lg" icon={Compass} iconPosition="left">
                 Ver como funciona

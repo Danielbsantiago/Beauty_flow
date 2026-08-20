@@ -7,7 +7,7 @@ const PLANS = [
   {
     name: "Essencial",
     price: "R$149",
-    description: "Para começar a automatizar e não perder oportunidades.",
+    description: "Para começar a automatizar.",
     features: [
       { label: "Atendimento automatizado", included: true },
       { label: "Respostas a dúvidas", included: true },
@@ -23,7 +23,7 @@ const PLANS = [
   {
     name: "Avançado",
     price: "R$249",
-    description: "Para negócios em crescimento que querem automatizar vendas e relacionamento.",
+    description: "Para quem quer acompanhar mais oportunidades.",
     badge: "MAIS ESCOLHIDO",
     highlighted: true,
     features: [
@@ -41,7 +41,7 @@ const PLANS = [
   {
     name: "Pro",
     price: "R$399",
-    description: "Para negócios que querem uma operação mais completa e orientada por dados.",
+    description: "Para uma operação mais completa e personalizada.",
     features: [
       { label: "Atendimento automatizado", included: true },
       { label: "Respostas a dúvidas", included: true },
@@ -99,14 +99,14 @@ function PlanCard({ plan }) {
 
       <div className="mt-8 pt-2 lg:mt-auto">
         <Button
-          href={buildWhatsappLink(`Olá! Quero começar o teste grátis da Ondia no plano ${plan.name}.`)}
+          href={buildWhatsappLink(`Olá! Quero começar grátis por 7 dias na AutomatcIA, no plano ${plan.name}.`)}
           target="_blank"
           rel="noopener noreferrer"
           variant={plan.highlighted ? "primary" : "secondary"}
           className="w-full"
           icon={ArrowRight}
         >
-          Começar teste grátis
+          Começar grátis por 7 dias
         </Button>
       </div>
     </div>

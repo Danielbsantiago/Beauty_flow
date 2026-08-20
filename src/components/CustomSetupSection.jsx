@@ -27,7 +27,7 @@ export default function CustomSetupSection() {
         <Reveal>
           <Badge icon={Sparkles}>Não é um bot genérico</Badge>
           <h2 className="text-balance mt-6 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-            Configurado do seu jeito de atender.
+            A AutomatcIA se adapta ao seu negócio.
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-ink/55">
             Antes de começar, conversamos com você para entender como seu

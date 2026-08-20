@@ -14,13 +14,13 @@ export default function ReactivationSection() {
         <Reveal>
           <Badge icon={Sparkles}>Recurso em destaque</Badge>
           <h2 className="text-balance mt-6 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-            Seu cliente não precisa desaparecer depois da primeira compra.
+            Não deixe bons clientes serem esquecidos.
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-ink/55">
-            Depois que um cliente compra, faz um pedido ou utiliza um
-            serviço através do sistema, a Ondia acompanha esse
-            relacionamento. Quando identifica que ele ficou algum tempo sem
-            voltar, pode iniciar uma nova conversa.
+            Mantenha o relacionamento e crie novas oportunidades com pessoas
+            que já conhecem seu negócio. A AutomatcIA acompanha os clientes
+            que passam pelo sistema e, quando identifica que alguém ficou
+            algum tempo sem voltar, pode iniciar uma nova conversa.
           </p>
         </Reveal>
 
@@ -43,7 +43,7 @@ export default function ReactivationSection() {
 
             <div className="flex items-center gap-2 rounded-full bg-brand-soft px-4 py-2 text-xs font-semibold text-brand-2">
               <Radar className="size-4" />
-              Ondia identifica
+              AutomatcIA identifica
             </div>
 
             <ArrowDown className="size-4 text-ink/25" />

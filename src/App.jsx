@@ -1,11 +1,11 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import PainFlowSection from "./components/PainFlowSection";
-import PainCardsSection from "./components/PainCardsSection";
+import ProblemSection from "./components/ProblemSection";
 import SolutionSection from "./components/SolutionSection";
 import ReactivationSection from "./components/ReactivationSection";
 import CustomSetupSection from "./components/CustomSetupSection";
 import PricingSection from "./components/PricingSection";
+import FAQSection from "./components/FAQSection";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
 import MobileStickyBar from "./components/MobileStickyBar";
@@ -16,12 +16,12 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <PainFlowSection />
-        <PainCardsSection />
+        <ProblemSection />
         <SolutionSection />
         <ReactivationSection />
         <CustomSetupSection />
         <PricingSection />
+        <FAQSection />
         <FinalCTA />
       </main>
       <Footer />

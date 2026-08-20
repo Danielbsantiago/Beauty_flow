@@ -2,19 +2,19 @@
 // Nenhum dado de contato real foi inventado: troque os placeholders pelos seus.
 
 export const SITE = {
-  brand: "Ondia",
+  brand: "AutomatcIA",
 
   // Número de WhatsApp para onde os CTAs vão apontar (formato internacional, só números).
   whatsappNumber: "5561981787169",
 
   // Mensagem pré-preenchida enviada ao clicar nos CTAs principais.
-  whatsappMessage: "Olá! Quero começar o teste grátis da Ondia.",
+  whatsappMessage: "Olá! Quero começar grátis por 7 dias na AutomatcIA.",
 
   // TODO: troque pelo e-mail real de contato.
-  email: "contato@ondia.com.br",
+  email: "contato@automatcia.com.br",
 
   // TODO: troque pelo @ real do Instagram.
-  instagram: "https://instagram.com/ondia",
+  instagram: "https://instagram.com/automatcia",
 };
 
 export function buildWhatsappLink(customMessage) {

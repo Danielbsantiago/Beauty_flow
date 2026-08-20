@@ -1,0 +1,17 @@
+{
+  "name": "AutomatcIA",
+  "short_name": "AutomatcIA",
+  "description": "Automação de atendimento, oportunidades e relacionamento para negócios que atendem pelo WhatsApp.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090D",
+  "theme_color": "#09090D",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

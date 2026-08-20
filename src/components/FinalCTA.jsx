@@ -16,26 +16,26 @@ export default function FinalCTA() {
             Você cuida do seu negócio.
           </h2>
           <p className="text-balance mt-2 font-display text-3xl font-bold tracking-tight text-gradient sm:text-4xl lg:text-5xl">
-            A Ondia cuida das oportunidades.
+            A AutomatcIA cuida das oportunidades.
           </p>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink/55">
-            Venda, receba pedidos, agende clientes e mantenha
-            relacionamentos ativos mesmo quando você está ocupado.
+            Menos tarefas repetitivas, mais tempo para o que importa — e
+            mais oportunidades acompanhadas de perto.
           </p>
           <div className="mt-10">
             <Button
-              href={buildWhatsappLink("Olá! Quero começar o teste grátis da Ondia.")}
+              href={buildWhatsappLink("Olá! Quero começar grátis por 7 dias na AutomatcIA.")}
               target="_blank"
               rel="noopener noreferrer"
               size="lg"
               icon={ArrowRight}
               className="px-9 py-5 text-lg"
             >
-              Começar teste grátis
+              Começar grátis por 7 dias
             </Button>
           </div>
           <p className="mt-5 text-sm text-ink/40">
-            7 dias grátis para experimentar.
+            Comece agora pelo WhatsApp.
           </p>
         </Reveal>
       </div>
