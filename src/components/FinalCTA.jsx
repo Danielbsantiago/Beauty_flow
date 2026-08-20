@@ -15,8 +15,9 @@ export default function FinalCTA() {
           <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl lg:text-5xl">
             Você cuida do seu negócio.
           </h2>
-          <p className="text-balance mt-2 font-display text-3xl font-bold tracking-tight text-gradient sm:text-4xl lg:text-5xl">
-            A AutomatcIA cuida das vendas e agendamentos.
+          <p className="text-balance mt-2 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl lg:text-5xl">
+            A Automatc<span className="text-gradient">IA</span> cuida dos
+            seus agendamentos.
           </p>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink/55">
             Menos tarefas repetitivas, mais tempo para o que importa — e

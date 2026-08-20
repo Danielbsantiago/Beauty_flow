@@ -32,15 +32,16 @@ export default function Hero() {
 
           <Reveal delay={0.1}>
             <h1 className="text-balance mt-6 font-display text-4xl font-bold leading-[1.12] tracking-tight text-ink sm:text-5xl lg:text-[3.3rem]">
-              Você cuida do seu negócio. A AutomatcIA{" "}
-              <span className="text-gradient">cuida das vendas e agendamentos</span>.
+              Você cuida do seu negócio. A Automatc
+              <span className="text-gradient">IA</span> cuida dos seus
+              agendamentos.
             </h1>
           </Reveal>
 
           <Reveal delay={0.2}>
             <p className="text-balance mt-6 max-w-xl text-lg leading-relaxed text-ink/60">
-              Automatize atendimentos, aumente vendas e realize agendamentos
-              — sem aumentar o trabalho da sua equipe.
+              Automatize seus atendimentos, aumente suas vendas e realize
+              agendamentos — sem precisar enviar uma mensagem sequer.
             </p>
           </Reveal>
 
