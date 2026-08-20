@@ -1,6 +1,7 @@
 import { SITE } from "../lib/config";
 
-export default function PhoneFrame({ children, className = "" }) {
+export default function PhoneFrame({ children, className = "", contactName }) {
+  const name = contactName || SITE.brand;
   return (
     <div className={`relative mx-auto w-[290px] sm:w-[320px] ${className}`}>
       <div className="rounded-[2.75rem] bg-[#111116] p-2.5 shadow-2xl ring-1 ring-white/10">
@@ -8,10 +9,10 @@ export default function PhoneFrame({ children, className = "" }) {
           <div className="absolute left-1/2 top-0 z-10 h-6 w-32 -translate-x-1/2 rounded-b-2xl bg-[#0d0d12]" />
           <div className="flex items-center gap-3 bg-[#1f2c34] px-4 pb-3 pt-8">
             <div className="flex size-9 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand to-brand-2 font-display text-sm font-bold text-canvas">
-              {SITE.brand[0]}
+              {name[0]}
             </div>
             <div className="min-w-0">
-              <p className="truncate text-sm font-semibold text-white">{SITE.brand}</p>
+              <p className="truncate text-sm font-semibold text-white">{name}</p>
               <p className="text-xs text-white/40">online</p>
             </div>
           </div>

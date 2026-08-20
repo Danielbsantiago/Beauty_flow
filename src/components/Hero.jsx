@@ -1,4 +1,4 @@
-import { Sparkles, ArrowRight, Compass, Scissors, UtensilsCrossed, Bike, ShoppingBag, Wrench } from "lucide-react";
+import { Sparkles, ArrowRight, Compass, Scissors, UtensilsCrossed, ShoppingBag, Wrench } from "lucide-react";
 import Badge from "./Badge";
 import Button from "./Button";
 import PhoneFrame, { Bubble, TypingBubble } from "./PhoneFrame";
@@ -8,7 +8,6 @@ import { buildWhatsappLink } from "../lib/config";
 const NICHES = [
   { icon: Scissors, label: "Salões" },
   { icon: UtensilsCrossed, label: "Alimentação" },
-  { icon: Bike, label: "Delivery" },
   { icon: ShoppingBag, label: "Produtos" },
   { icon: Wrench, label: "Prestadores de serviço" },
 ];
@@ -32,16 +31,17 @@ export default function Hero() {
 
           <Reveal delay={0.1}>
             <h1 className="text-balance mt-6 font-display text-4xl font-bold leading-[1.12] tracking-tight text-ink sm:text-5xl lg:text-[3.3rem]">
-              Você cuida do seu negócio. A Automatc
-              <span className="text-gradient">IA</span> cuida dos seus
-              agendamentos.
+              Você cuida do seu negócio.{" "}
+              <span className="text-gradient">
+                A AutomatcIA cuida dos seus agendamentos.
+              </span>
             </h1>
           </Reveal>
 
           <Reveal delay={0.2}>
             <p className="text-balance mt-6 max-w-xl text-lg leading-relaxed text-ink/60">
               Automatize seus atendimentos, aumente suas vendas e realize
-              agendamentos — sem precisar enviar uma mensagem sequer.
+              agendamentos — sem você precisar enviar uma mensagem sequer.
             </p>
           </Reveal>
 
@@ -82,7 +82,7 @@ export default function Hero() {
             className="pointer-events-none absolute inset-x-8 -bottom-6 top-10 -z-10 rounded-[3rem] bg-gradient-to-br from-brand/20 to-brand-2/10 blur-2xl"
             aria-hidden="true"
           />
-          <PhoneFrame>
+          <PhoneFrame contactName="Sua atendente virtual">
             <Bubble from="client" time="09:41">
               Oi! Gostaria de agendar um horário, vocês têm disponibilidade
               essa semana?
