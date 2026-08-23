@@ -31,7 +31,7 @@ const PROBLEMS = [
     icon: Heart,
     title: "Clientes que não voltam",
     text: "Sua empresa já tem contatos e clientes, mas nem sempre consegue manter o relacionamento.",
-    solution: "identifica quem sumiu e ajuda a reaproximar.",
+    solution: "identifica clientes que sumiram e envia mensagens para gerar novos agendamentos.",
   },
 ];
 
