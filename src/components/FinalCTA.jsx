@@ -13,25 +13,23 @@ export default function FinalCTA() {
       <div className="relative mx-auto max-w-3xl px-5 text-center sm:px-8">
         <Reveal>
           <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl lg:text-5xl">
-            Você cuida do seu negócio.
+            Seu WhatsApp pode{" "}
+            <span className="text-gradient">trabalhar por você.</span>
           </h2>
-          <p className="text-balance mt-2 font-display text-3xl font-bold tracking-tight text-gradient sm:text-4xl lg:text-5xl">
-            A AtendfluxIA cuida dos seus agendamentos.
-          </p>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink/55">
-            Menos tarefas repetitivas, mais tempo para o que importa — e
-            mais clientes atendidos e convertidos.
+            Descubra como um assistente virtual personalizado pode atender
+            seus clientes e cuidar dos seus agendamentos.
           </p>
           <div className="mt-10">
             <Button
-              href={buildWhatsappLink("Olá! Quero começar grátis por 7 dias na AtendfluxIA.")}
+              href={buildWhatsappLink("Olá! Quero agendar uma demonstração da AtendfluxIA.")}
               target="_blank"
               rel="noopener noreferrer"
               size="lg"
               icon={ArrowRight}
               className="px-9 py-5 text-lg"
             >
-              Começar grátis por 7 dias
+              Agendar demonstração gratuita
             </Button>
           </div>
           <p className="mt-5 text-sm text-ink/55">

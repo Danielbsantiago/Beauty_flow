@@ -1,22 +1,22 @@
-import { Sparkles, Users, SlidersHorizontal, ShieldCheck } from "lucide-react";
+import { Sparkles, MessagesSquare, SlidersHorizontal, Bot, ArrowRight, ArrowDown } from "lucide-react";
 import Badge from "./Badge";
 import Reveal from "./Reveal";
 
-const STEPS = [
+const FLOW = [
   {
-    icon: Users,
-    title: "Conversamos com você",
-    text: "Entendemos quem faz o quê, como organiza horários e o que pode ou não ser feito no seu negócio.",
+    icon: MessagesSquare,
+    label: "Você nos explica",
+    sub: "Serviços, horários, regras e forma de atender",
   },
   {
     icon: SlidersHorizontal,
-    title: "Configuramos a IA",
-    text: "Transformamos isso nas regras que guiam cada conversa — nada de respostas genéricas.",
+    label: "Nós configuramos",
+    sub: "Seu assistente virtual personalizado",
   },
   {
-    icon: ShieldCheck,
-    title: "Atendimento do seu jeito",
-    text: "Seus clientes são atendidos como você atenderia, não como um bot padrão atenderia.",
+    icon: Bot,
+    label: "Ele atende",
+    sub: "Seguindo as regras da sua empresa",
   },
 ];
 
@@ -27,41 +27,40 @@ export default function CustomSetupSection() {
         <Reveal>
           <Badge icon={Sparkles}>Não é um bot genérico</Badge>
           <h2 className="text-balance mt-6 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-            A AtendfluxIA se adapta ao seu negócio.
+            Não é uma IA genérica. É a IA da sua empresa.
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-ink/55">
-            Antes de começar, conversamos com você para entender como seu
-            negócio realmente funciona — e transformamos isso nas regras
-            que a IA segue.
+            Cada empresa tem seus próprios serviços, horários, regras e
+            maneira de atender. Por isso, antes de começar, entendemos como
+            sua empresa funciona e configuramos o assistente de acordo com
+            suas necessidades.
           </p>
         </Reveal>
 
-        <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-3">
-          {STEPS.map((step, i) => (
-            <Reveal key={step.title} delay={i * 0.1}>
-              <div className="h-full rounded-2xl border border-line bg-panel p-6 text-left">
-                <div className="flex size-11 items-center justify-center rounded-xl bg-brand-soft text-brand-2">
-                  <step.icon className="size-5" strokeWidth={1.75} />
+        <div className="mx-auto mt-14 flex max-w-2xl flex-col items-center gap-2 sm:flex-row sm:items-stretch sm:justify-between sm:gap-0">
+          {FLOW.map((step, i) => (
+            <div key={step.label} className="flex flex-col items-center sm:flex-1">
+              <Reveal delay={i * 0.1} className="flex flex-col items-center text-center">
+                <div className="flex size-14 items-center justify-center rounded-2xl bg-panel-2 text-brand-2 ring-1 ring-line">
+                  <step.icon className="size-6" strokeWidth={1.75} />
                 </div>
-                <h3 className="mt-4 font-display text-base font-semibold text-ink">
-                  {step.title}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-ink/55">{step.text}</p>
-              </div>
-            </Reveal>
+                <p className="mt-3 max-w-[9rem] text-sm font-semibold text-ink">
+                  {step.label}
+                </p>
+                <p className="mt-1 max-w-[9.5rem] text-xs leading-tight text-ink/55">
+                  {step.sub}
+                </p>
+              </Reveal>
+
+              {i < FLOW.length - 1 && (
+                <Reveal delay={i * 0.1 + 0.05} className="my-2 text-ink/20 sm:my-0 sm:flex sm:flex-1 sm:items-center sm:justify-center">
+                  <ArrowDown className="size-4 sm:hidden" />
+                  <ArrowRight className="hidden size-4 sm:block" />
+                </Reveal>
+              )}
+            </div>
           ))}
         </div>
-
-        <Reveal delay={0.3}>
-          <p className="mx-auto mt-10 max-w-lg text-balance text-sm font-medium text-ink/60">
-            O plano <span className="text-ink/80">Essencial</span> já
-            inclui as regras do seu negócio, serviços, horários e equipe.
-            Personalização avançada — como campanhas de reativação e
-            fluxos sob medida — fica nos planos{" "}
-            <span className="text-ink/80">Avançado</span> e{" "}
-            <span className="text-ink/80">Pro</span>.
-          </p>
-        </Reveal>
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
-import { Sparkles, ArrowRight, Compass } from "lucide-react";
+import { Sparkles, ArrowRight, Compass, Wand2 } from "lucide-react";
 import Badge from "./Badge";
 import Button from "./Button";
 import PhoneFrame, { Bubble, TypingBubble } from "./PhoneFrame";
@@ -24,30 +24,31 @@ export default function Hero() {
 
           <Reveal delay={0.1}>
             <h1 className="text-balance mt-6 font-display text-4xl font-bold leading-[1.12] tracking-tight text-ink sm:text-5xl lg:text-[3.3rem]">
-              Você cuida do seu negócio.{" "}
+              Seu WhatsApp{" "}
               <span className="text-gradient">
-                A AtendfluxIA cuida dos seus agendamentos.
+                trabalhando para o seu negócio.
               </span>
             </h1>
           </Reveal>
 
           <Reveal delay={0.2}>
             <p className="text-balance mt-6 max-w-xl text-lg leading-relaxed text-ink/60">
-              Responde, agenda, lembra e traz o cliente de volta. Você entra
-              só quando quiser.
+              Um assistente virtual personalizado para sua empresa, que atende
+              clientes, agenda horários, confirma, lembra e ajuda a trazer
+              clientes de volta — automaticamente.
             </p>
           </Reveal>
 
           <Reveal delay={0.3}>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <Button
-                href={buildWhatsappLink("Olá! Quero começar grátis por 7 dias na AtendfluxIA.")}
+                href={buildWhatsappLink("Olá! Quero conhecer a AtendfluxIA.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 size="lg"
                 icon={ArrowRight}
               >
-                Começar grátis por 7 dias
+                Quero conhecer o AtendfluxIA
               </Button>
               <Button href="#como-funciona" variant="secondary" size="lg" icon={Compass} iconPosition="left">
                 Ver como funciona
@@ -55,6 +56,13 @@ export default function Hero() {
             </div>
           </Reveal>
 
+          <Reveal delay={0.4}>
+            <p className="mt-5 flex items-start gap-2 text-sm leading-relaxed text-ink/50">
+              <Wand2 className="mt-0.5 size-4 shrink-0 text-brand-2" />
+              Não é um chatbot genérico. Configuramos a IA de acordo com a
+              forma como sua empresa trabalha.
+            </p>
+          </Reveal>
         </div>
 
         <Reveal delay={0.2} className="relative mx-auto w-full max-w-sm">

@@ -49,7 +49,7 @@ export default function Navbar() {
 
         <div className="hidden lg:block">
           <Button href={buildWhatsappLink()} target="_blank" rel="noopener noreferrer">
-            Começar grátis por 7 dias
+            Quero conhecer o AtendfluxIA
           </Button>
         </div>
 
@@ -85,7 +85,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="mt-3 w-full"
           >
-            Começar grátis por 7 dias
+            Quero conhecer o AtendfluxIA
           </Button>
         </div>
       )}

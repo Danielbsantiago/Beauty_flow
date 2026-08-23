@@ -1,10 +1,13 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ProblemSection from "./components/ProblemSection";
+import CustomSetupSection from "./components/CustomSetupSection";
+import SmartSchedulingSection from "./components/SmartSchedulingSection";
 import SolutionSection from "./components/SolutionSection";
+import FeaturesSection from "./components/FeaturesSection";
 import AudienceSection from "./components/AudienceSection";
 import ReactivationSection from "./components/ReactivationSection";
-import CustomSetupSection from "./components/CustomSetupSection";
+import ImplantacaoSection from "./components/ImplantacaoSection";
 import ProofSection from "./components/ProofSection";
 import AboutFounderSection from "./components/AboutFounderSection";
 import FAQSection from "./components/FAQSection";
@@ -19,11 +22,14 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <CustomSetupSection />
         <ProblemSection />
+        <SmartSchedulingSection />
         <SolutionSection />
+        <FeaturesSection />
         <AudienceSection />
         <ReactivationSection />
-        <CustomSetupSection />
+        <ImplantacaoSection />
         <ProofSection />
         <AboutFounderSection />
         <FAQSection />

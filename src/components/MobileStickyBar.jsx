@@ -47,7 +47,7 @@ export default function MobileStickyBar() {
         className="flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-brand to-brand-2 px-5 py-3.5 text-sm font-bold text-canvas shadow-[0_8px_24px_-6px_rgba(139,108,255,0.55)] transition-transform active:scale-[0.98]"
       >
         <Rocket className="size-4.5" />
-        Começar grátis por 7 dias
+        Quero conhecer o AtendfluxIA
       </a>
     </div>
   );
