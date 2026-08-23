@@ -24,9 +24,9 @@ export default function Hero() {
 
           <Reveal delay={0.1}>
             <h1 className="text-balance mt-6 font-display text-4xl font-bold leading-[1.12] tracking-tight text-ink sm:text-5xl lg:text-[3.3rem]">
-              Seu WhatsApp{" "}
+              Seu WhatsApp pode{" "}
               <span className="text-gradient">
-                trabalhando para o seu negócio.
+                trabalhar por você.
               </span>
             </h1>
           </Reveal>

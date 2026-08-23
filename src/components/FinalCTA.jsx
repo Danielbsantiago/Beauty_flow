@@ -13,8 +13,8 @@ export default function FinalCTA() {
       <div className="relative mx-auto max-w-3xl px-5 text-center sm:px-8">
         <Reveal>
           <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl lg:text-5xl">
-            Seu WhatsApp pode{" "}
-            <span className="text-gradient">trabalhar por você.</span>
+            Seu WhatsApp{" "}
+            <span className="text-gradient">trabalhando para o seu negócio.</span>
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink/55">
             Descubra como um assistente virtual personalizado pode atender
