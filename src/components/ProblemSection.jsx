@@ -70,7 +70,7 @@ export default function ProblemSection() {
 
         <Reveal delay={0.2}>
           <p className="mx-auto mt-8 max-w-md text-balance font-display text-lg font-semibold text-gradient">
-            É aí que a AutomatcIA entra.
+            É aí que a AtendfluxIA entra.
           </p>
         </Reveal>
 
@@ -86,7 +86,7 @@ export default function ProblemSection() {
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink/55">{problem.text}</p>
                 <p className="mt-3 text-sm leading-relaxed text-ink/70">
-                  <span className="font-semibold text-ink">AutomatcIA:</span>{" "}
+                  <span className="font-semibold text-ink">AtendfluxIA:</span>{" "}
                   {problem.solution}
                 </p>
               </div>

@@ -13,7 +13,7 @@ export default function PhoneFrame({ children, className = "", contactName }) {
             </div>
             <div className="min-w-0">
               <p className="truncate text-sm font-semibold text-white">{name}</p>
-              <p className="text-xs text-white/40">online</p>
+              <p className="text-xs text-white/60">online</p>
             </div>
           </div>
           <div className="flex min-h-[420px] flex-col justify-end gap-2 px-3 py-4">
@@ -38,7 +38,7 @@ export function Bubble({ from = "client", children, time, delay = 0 }) {
     >
       {children}
       {time && (
-        <span className="mt-1 block text-right text-[10px] text-white/35">{time}</span>
+        <span className="mt-1 block text-right text-[10px] text-white/70">{time}</span>
       )}
     </div>
   );
@@ -72,7 +72,7 @@ export function NotificationRow({ icon: Icon, title, subtitle, delay = 0 }) {
       </span>
       <div className="min-w-0">
         <p className="truncate text-xs font-semibold text-white">{title}</p>
-        <p className="truncate text-[11px] text-white/40">{subtitle}</p>
+        <p className="truncate text-[11px] text-white/60">{subtitle}</p>
       </div>
     </div>
   );

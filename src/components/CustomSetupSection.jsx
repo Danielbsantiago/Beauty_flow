@@ -27,7 +27,7 @@ export default function CustomSetupSection() {
         <Reveal>
           <Badge icon={Sparkles}>Não é um bot genérico</Badge>
           <h2 className="text-balance mt-6 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-            A AutomatcIA se adapta ao seu negócio.
+            A AtendfluxIA se adapta ao seu negócio.
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-ink/55">
             Antes de começar, conversamos com você para entender como seu
@@ -53,10 +53,13 @@ export default function CustomSetupSection() {
         </div>
 
         <Reveal delay={0.3}>
-          <p className="mx-auto mt-10 max-w-lg text-balance text-sm font-medium text-ink/45">
-            É por isso que personalização completa faz parte dos planos{" "}
-            <span className="text-ink/70">Avançado</span> e{" "}
-            <span className="text-ink/70">Pro</span>.
+          <p className="mx-auto mt-10 max-w-lg text-balance text-sm font-medium text-ink/60">
+            O plano <span className="text-ink/80">Essencial</span> já
+            inclui as regras do seu negócio, serviços, horários e equipe.
+            Personalização avançada — como campanhas de reativação e
+            fluxos sob medida — fica nos planos{" "}
+            <span className="text-ink/80">Avançado</span> e{" "}
+            <span className="text-ink/80">Pro</span>.
           </p>
         </Reveal>
       </div>

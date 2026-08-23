@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <Logo />
-            <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink/50">
+            <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink/60">
               Atendimento, vendas e reativação de clientes em uma única
               plataforma.
             </p>
@@ -58,7 +58,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-xs font-bold uppercase tracking-wide text-ink/35">
+            <p className="text-xs font-bold uppercase tracking-wide text-ink/55">
               Navegação
             </p>
             <ul className="mt-4 flex flex-col gap-3">
@@ -73,7 +73,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-xs font-bold uppercase tracking-wide text-ink/35">
+            <p className="text-xs font-bold uppercase tracking-wide text-ink/55">
               Legal
             </p>
             <ul className="mt-4 flex flex-col gap-3">
@@ -94,10 +94,10 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col-reverse items-center justify-between gap-4 border-t border-line pt-6 sm:flex-row">
-          <p className="text-xs text-ink/35">
+          <p className="text-xs text-ink/55">
             © {year} {SITE.brand}. Todos os direitos reservados.
           </p>
-          <p className="text-xs text-ink/35">Feito para negócios que vendem, atendem e agendam.</p>
+          <p className="text-xs text-ink/55">Feito para negócios que vendem, atendem e agendam.</p>
         </div>
       </div>
     </footer>

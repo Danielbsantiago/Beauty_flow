@@ -18,7 +18,7 @@ export default function ReactivationSection() {
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-ink/55">
             Mantenha o relacionamento e gere novos agendamentos e vendas com
-            pessoas que já conhecem seu negócio. A AutomatcIA acompanha os clientes
+            pessoas que já conhecem seu negócio. A AtendfluxIA acompanha os clientes
             que passam pelo sistema e, quando identifica que alguém ficou
             algum tempo sem voltar, pode iniciar uma nova conversa.
           </p>
@@ -32,7 +32,7 @@ export default function ReactivationSection() {
               </span>
               <span className="text-left">
                 <span className="block text-sm font-semibold text-ink">Maria</span>
-                <span className="flex items-center gap-1 text-[11px] text-ink/45">
+                <span className="flex items-center gap-1 text-[11px] text-ink/60">
                   <Clock className="size-3" />
                   Última compra: 74 dias atrás
                 </span>
@@ -43,7 +43,7 @@ export default function ReactivationSection() {
 
             <div className="flex items-center gap-2 rounded-full bg-brand-soft px-4 py-2 text-xs font-semibold text-brand-2">
               <Radar className="size-4" />
-              AutomatcIA identifica
+              AtendfluxIA identifica
             </div>
 
             <ArrowDown className="size-4 text-ink/25" />
@@ -67,7 +67,7 @@ export default function ReactivationSection() {
         <Reveal delay={0.25}>
           <div className="mx-auto mt-10 flex max-w-lg items-start gap-2.5 rounded-xl border border-line bg-panel/60 px-5 py-4 text-left">
             <Info className="mt-0.5 size-4 shrink-0 text-ink/35" />
-            <p className="text-xs leading-relaxed text-ink/45">
+            <p className="text-xs leading-relaxed text-ink/60">
               A reativação é baseada nos clientes e interações acompanhados
               pelo sistema após sua implementação — não importa nem recupera
               automaticamente toda a base antiga do negócio.

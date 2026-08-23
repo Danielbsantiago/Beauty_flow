@@ -2,19 +2,22 @@
 // Nenhum dado de contato real foi inventado: troque os placeholders pelos seus.
 
 export const SITE = {
-  brand: "AutomatcIA",
+  brand: "AtendfluxIA",
 
   // Número de WhatsApp para onde os CTAs vão apontar (formato internacional, só números).
   whatsappNumber: "5561981787169",
 
   // Mensagem pré-preenchida enviada ao clicar nos CTAs principais.
-  whatsappMessage: "Olá! Quero começar grátis por 7 dias na AutomatcIA.",
+  whatsappMessage: "Olá! Quero começar grátis por 7 dias na AtendfluxIA.",
 
   // TODO: troque pelo e-mail real de contato.
-  email: "contato@automatcia.com.br",
+  email: "contato@atendfluxia.com.br",
 
   // TODO: troque pelo @ real do Instagram.
-  instagram: "https://instagram.com/automatcia",
+  instagram: "https://instagram.com/atendfluxia",
+
+  // Domínio oficial do site.
+  domain: "www.atendfluxia.com.br",
 };
 
 export function buildWhatsappLink(customMessage) {

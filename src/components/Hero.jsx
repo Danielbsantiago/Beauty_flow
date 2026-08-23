@@ -1,16 +1,9 @@
-import { Sparkles, ArrowRight, Compass, Scissors, UtensilsCrossed, ShoppingBag, Wrench } from "lucide-react";
+import { Sparkles, ArrowRight, Compass } from "lucide-react";
 import Badge from "./Badge";
 import Button from "./Button";
 import PhoneFrame, { Bubble, TypingBubble } from "./PhoneFrame";
 import Reveal from "./Reveal";
 import { buildWhatsappLink } from "../lib/config";
-
-const NICHES = [
-  { icon: Scissors, label: "Salões" },
-  { icon: UtensilsCrossed, label: "Alimentação" },
-  { icon: ShoppingBag, label: "Produtos" },
-  { icon: Wrench, label: "Prestadores de serviço" },
-];
 
 export default function Hero() {
   return (
@@ -33,22 +26,22 @@ export default function Hero() {
             <h1 className="text-balance mt-6 font-display text-4xl font-bold leading-[1.12] tracking-tight text-ink sm:text-5xl lg:text-[3.3rem]">
               Você cuida do seu negócio.{" "}
               <span className="text-gradient">
-                A AutomatcIA cuida dos seus agendamentos.
+                A AtendfluxIA cuida dos seus agendamentos.
               </span>
             </h1>
           </Reveal>
 
           <Reveal delay={0.2}>
             <p className="text-balance mt-6 max-w-xl text-lg leading-relaxed text-ink/60">
-              Automatize seus atendimentos, aumente suas vendas e realize
-              agendamentos — sem você precisar enviar uma mensagem sequer.
+              Responde, agenda, lembra e traz o cliente de volta. Você entra
+              só quando quiser.
             </p>
           </Reveal>
 
           <Reveal delay={0.3}>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <Button
-                href={buildWhatsappLink("Olá! Quero começar grátis por 7 dias na AutomatcIA.")}
+                href={buildWhatsappLink("Olá! Quero começar grátis por 7 dias na AtendfluxIA.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 size="lg"
@@ -62,19 +55,6 @@ export default function Hero() {
             </div>
           </Reveal>
 
-          <Reveal delay={0.4}>
-            <div className="mt-10 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-line pt-6">
-              <span className="text-xs font-semibold uppercase tracking-wide text-ink/35">
-                Feito para
-              </span>
-              {NICHES.map((niche) => (
-                <span key={niche.label} className="inline-flex items-center gap-1.5 text-xs font-medium text-ink/50">
-                  <niche.icon className="size-3.5 text-ink/35" />
-                  {niche.label}
-                </span>
-              ))}
-            </div>
-          </Reveal>
         </div>
 
         <Reveal delay={0.2} className="relative mx-auto w-full max-w-sm">

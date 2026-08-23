@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body {
+        width: 1200px;
+        height: 630px;
+        background: radial-gradient(ellipse 1400px 800px at 50% -10%, #17141f 0%, #09090d 55%);
+        background-color: #09090d;
+        font-family: "Poppins", "Inter", ui-sans-serif, system-ui, sans-serif;
+        overflow: hidden;
+      }
+      .wrap {
+        width: 1200px;
+        height: 630px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 28px;
+      }
+      .mark {
+        width: 96px;
+        height: 96px;
+        border-radius: 24px;
+        background: linear-gradient(135deg, #8b6cff, #22d3ee);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .mark svg { width: 52px; height: 52px; }
+      .brand {
+        font-size: 44px;
+        font-weight: 700;
+        color: #f5f5f7;
+      }
+      .brand .ia {
+        background: linear-gradient(90deg, #8b6cff, #22d3ee);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .headline {
+        font-size: 40px;
+        font-weight: 700;
+        color: #f5f5f7;
+        max-width: 900px;
+        line-height: 1.25;
+      }
+      .headline .accent {
+        background: linear-gradient(90deg, #8b6cff, #22d3ee);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .tagline {
+        font-size: 22px;
+        color: rgba(245,245,247,0.6);
+        font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#09090d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 10v3"/>
+          <path d="M6 6v11"/>
+          <path d="M10 3v18"/>
+          <path d="M14 8v7"/>
+          <path d="M18 5v13"/>
+          <path d="M22 10v3"/>
+        </svg>
+      </div>
+      <div class="brand">Atendflux<span class="ia">IA</span></div>
+      <div class="headline">Você cuida do seu negócio. <span class="accent">A AtendfluxIA cuida dos seus agendamentos.</span></div>
+      <div class="tagline">Automação de atendimento, vendas e agendamentos pelo WhatsApp</div>
+    </div>
+  </body>
+</html>

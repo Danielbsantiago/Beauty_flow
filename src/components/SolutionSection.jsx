@@ -31,7 +31,7 @@ export default function SolutionSection() {
                   {step.label}
                 </p>
                 {step.sub && (
-                  <p className="mt-1 max-w-[7.5rem] text-[10px] leading-tight text-ink/40">
+                  <p className="mt-1 max-w-[7.5rem] text-[10px] leading-tight text-ink/60">
                     {step.sub}
                   </p>
                 )}

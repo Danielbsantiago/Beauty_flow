@@ -1,4 +1,4 @@
-import { Check, X, Star, ArrowRight, MessageCircle, ShoppingCart, CalendarCheck, RotateCcw } from "lucide-react";
+import { Check, X, Star, ArrowRight, Timer, ShieldCheck } from "lucide-react";
 import Button from "./Button";
 import Reveal from "./Reveal";
 import { buildWhatsappLink } from "../lib/config";
@@ -24,7 +24,7 @@ const PLANS = [
     name: "Avançado",
     price: "R$249",
     description: "Para quem quer vender e agendar mais.",
-    badge: "MAIS ESCOLHIDO",
+    badge: "RECOMENDADO",
     highlighted: true,
     features: [
       { label: "Atendimento automatizado", included: true },
@@ -52,18 +52,14 @@ const PLANS = [
       { label: "Campanhas de reativação", included: true },
       { label: "Feedback pós-venda", included: true },
       { label: "Personalização completa", included: true },
+      { label: "Múltiplos profissionais ou unidades", included: true },
       { label: "Dashboard de resultados", included: true },
+      { label: "Relatórios mensais", included: true },
       { label: "Automação e fluxos personalizados", included: true },
+      { label: "Onboarding assistido", included: true },
       { label: "Suporte prioritário", included: true },
     ],
   },
-];
-
-const STATS = [
-  { icon: MessageCircle, value: "327", label: "Conversas" },
-  { icon: ShoppingCart, value: "84", label: "Pedidos" },
-  { icon: CalendarCheck, value: "61", label: "Agendamentos" },
-  { icon: RotateCcw, value: "28", label: "Reativações" },
 ];
 
 function PlanCard({ plan }) {
@@ -78,9 +74,9 @@ function PlanCard({ plan }) {
       <h3 className="font-display text-lg font-semibold text-ink">{plan.name}</h3>
       <p className="mt-3 flex items-baseline gap-1">
         <span className="font-display text-4xl font-bold text-ink">{plan.price}</span>
-        <span className="text-sm text-ink/40">/mês</span>
+        <span className="text-sm text-ink/55">/mês</span>
       </p>
-      <p className="mt-3 text-sm leading-relaxed text-ink/50">{plan.description}</p>
+      <p className="mt-3 text-sm leading-relaxed text-ink/60">{plan.description}</p>
 
       <ul className="mt-6 flex flex-col gap-3">
         {plan.features.map((f) => (
@@ -90,16 +86,16 @@ function PlanCard({ plan }) {
             ) : (
               <X className="size-4 shrink-0 text-ink/25" />
             )}
-            <span className={f.included ? "text-ink/75" : "text-ink/35"}>{f.label}</span>
+            <span className={f.included ? "text-ink/75" : "text-ink/50"}>{f.label}</span>
           </li>
         ))}
       </ul>
 
-      {plan.note && <p className="mt-4 text-xs italic text-ink/35">{plan.note}</p>}
+      {plan.note && <p className="mt-4 text-xs italic text-ink/55">{plan.note}</p>}
 
       <div className="mt-8 pt-2 lg:mt-auto">
         <Button
-          href={buildWhatsappLink(`Olá! Quero começar grátis por 7 dias na AutomatcIA, no plano ${plan.name}.`)}
+          href={buildWhatsappLink(`Olá! Quero começar grátis por 7 dias na AtendfluxIA, no plano ${plan.name}.`)}
           target="_blank"
           rel="noopener noreferrer"
           variant={plan.highlighted ? "primary" : "secondary"}
@@ -131,7 +127,7 @@ export default function PricingSection() {
           <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             Escolha o plano ideal para o seu negócio.
           </h2>
-          <p className="mt-4 text-base font-medium text-ink/50">
+          <p className="mt-4 text-base font-medium text-ink/60">
             Comece com 7 dias grátis.
           </p>
         </Reveal>
@@ -145,26 +141,15 @@ export default function PricingSection() {
         </div>
 
         <Reveal delay={0.3}>
-          <div className="mx-auto mt-14 max-w-2xl rounded-2xl border border-line bg-panel/60 p-6 sm:p-7">
-            <div className="flex flex-wrap items-center justify-between gap-2">
-              <p className="text-xs font-bold uppercase tracking-wide text-ink/40">Resultados</p>
-              <span className="rounded-full bg-panel-2 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-ink/40">
-                Demonstração ilustrativa
-              </span>
-            </div>
-            <div className="mt-5 grid grid-cols-2 gap-4 sm:grid-cols-4">
-              {STATS.map((stat) => (
-                <div key={stat.label} className="rounded-xl bg-panel-2 p-4">
-                  <stat.icon className="size-4 text-brand-2" />
-                  <p className="mt-2 font-display text-2xl font-bold text-ink">{stat.value}</p>
-                  <p className="text-xs text-ink/45">{stat.label}</p>
-                </div>
-              ))}
-            </div>
-            <p className="mt-4 text-xs leading-relaxed text-ink/35">
-              Números ilustrativos para fins de demonstração — não
-              representam resultados reais ou garantidos.
-            </p>
+          <div className="mx-auto mt-10 flex max-w-2xl flex-col items-center gap-3 text-center sm:flex-row sm:justify-center sm:gap-8">
+            <span className="inline-flex items-center gap-2 text-sm font-medium text-ink/60">
+              <Timer className="size-4 text-brand-2" />
+              Rodando em até [X] dias
+            </span>
+            <span className="inline-flex items-center gap-2 text-sm font-medium text-ink/60">
+              <ShieldCheck className="size-4 text-brand-2" />
+              Cancele quando quiser, sem multa
+            </span>
           </div>
         </Reveal>
       </div>

@@ -12,12 +12,36 @@ const FAQ_ITEMS = [
     answer: "Sim. Toda a automação acontece dentro do WhatsApp, do jeito que seus clientes já usam.",
   },
   {
+    question: "Meu número pode ser bloqueado pelo WhatsApp?",
+    answer: "Não. A conexão é feita pela forma oficial da Meta (dona do WhatsApp), o que reduz bastante esse risco.",
+  },
+  {
     question: "Posso continuar atendendo manualmente?",
     answer: "Sim. A automação ajuda nos momentos em que você não pode responder, mas você pode assumir a conversa quando quiser.",
   },
   {
+    question: "E se o cliente quiser falar com uma pessoa?",
+    answer: "Ele pode pedir a qualquer momento, e você assume a conversa quando quiser.",
+  },
+  {
+    question: "Preciso entender de tecnologia?",
+    answer: "Não. Você configura uma vez com a nossa ajuda e a IA cuida do resto.",
+  },
+  {
+    question: "Em quanto tempo fica funcionando?",
+    answer: "Sua AtendfluxIA fica rodando em até [X] dias úteis após a configuração inicial.",
+  },
+  {
     question: "Funciona para o meu tipo de negócio?",
-    answer: "A AutomatcIA se adapta a diferentes tipos de negócio — comércio, serviços, alimentação e mais.",
+    answer: "A AtendfluxIA se adapta a diferentes tipos de negócio — comércio, serviços, alimentação e mais.",
+  },
+  {
+    question: "E os dados dos meus clientes? (LGPD)",
+    answer: "Seguimos boas práticas de segurança e privacidade alinhadas à LGPD. Os dados dos seus clientes são usados apenas para o atendimento do seu negócio.",
+  },
+  {
+    question: "Como faço para cancelar?",
+    answer: "Basta avisar pelo WhatsApp. Sem multa e sem contrato de fidelidade.",
   },
   {
     question: "Quanto custa?",

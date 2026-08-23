@@ -1,7 +1,7 @@
 {
-  "name": "AutomatcIA",
-  "short_name": "AutomatcIA",
-  "description": "Automação de atendimento, oportunidades e relacionamento para negócios que atendem pelo WhatsApp.",
+  "name": "AtendfluxIA",
+  "short_name": "AtendfluxIA",
+  "description": "Automação de atendimento, vendas e agendamentos para negócios que atendem pelo WhatsApp.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#09090D",
