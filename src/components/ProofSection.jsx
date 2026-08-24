@@ -1,4 +1,4 @@
-import { Quote, User, Image as ImageIcon, TrendingUp } from "lucide-react";
+import { Quote, Image as ImageIcon, TrendingUp } from "lucide-react";
 import Reveal from "./Reveal";
 
 const SCREENSHOTS = [1, 2];
@@ -22,17 +22,25 @@ export default function ProofSection() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <div className="mx-auto mt-12 flex max-w-xl flex-col items-center gap-4 rounded-2xl border border-dashed border-line bg-panel/40 p-8 text-center sm:flex-row sm:text-left">
-            <span className="flex size-16 shrink-0 items-center justify-center rounded-full border border-dashed border-line text-ink/30">
-              <User className="size-7" />
-            </span>
+          <div className="mx-auto mt-12 flex max-w-xl flex-col items-start gap-4 rounded-2xl border border-line bg-panel p-8 text-left sm:flex-row">
+            <img
+              src="/testimonial-lourdes.jpg"
+              alt="Lourdes Dornelas"
+              className="size-14 shrink-0 rounded-full object-cover ring-1 ring-line"
+            />
             <div>
-              <Quote className="mx-auto size-5 text-ink/25 sm:mx-0" />
-              <p className="mt-2 text-sm italic text-ink/55">
-                Espaço para o depoimento real de um cliente.
+              <Quote className="size-5 text-brand-2/60" />
+              <p className="mt-2 text-sm leading-relaxed text-ink/75">
+                Achei muito prático e facilitou muito a minha vida. Não
+                preciso ficar olhando o celular o tempo todo para responder
+                os clientes. E, para falar a verdade, às vezes a AtendfluxIA
+                responde até melhor do que eu! Quando estou ocupada, eu
+                acabava respondendo rápido, com alguns erros e sem conseguir
+                dar a atenção que gostaria. A IA responde rápido, de forma
+                muito mais gentil e sem deixar o cliente esperando.
               </p>
-              <p className="mt-3 text-sm font-semibold text-ink/60">
-                [Nome do cliente] — [Nome do negócio]
+              <p className="mt-3 text-sm font-semibold text-ink">
+                Lourdes Dornelas — Salão Lourdes Estilo e Beleza
               </p>
             </div>
           </div>
