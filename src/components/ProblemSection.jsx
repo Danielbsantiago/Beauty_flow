@@ -13,7 +13,7 @@ const PROBLEMS = [
     icon: Clock3,
     title: "Clientes esperando resposta",
     text: "Quando sua equipe está ocupada, alguém pode ficar sem atendimento.",
-    solution: "responde rápido e mantém a conversa andando.",
+    solution: "responde rápido e já transforma a conversa em agendamento ou venda.",
   },
   {
     icon: Repeat,
