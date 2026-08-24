@@ -25,7 +25,7 @@ const PROBLEMS = [
     icon: Eye,
     title: "Vendas esquecidas",
     text: "Clientes interessados podem desaparecer quando ninguém acompanha o próximo passo.",
-    solution: "acompanha e retoma o contato no momento certo.",
+    solution: "acompanha o cliente automaticamente e retoma o contato até fechar o agendamento ou a venda.",
   },
   {
     icon: Heart,
