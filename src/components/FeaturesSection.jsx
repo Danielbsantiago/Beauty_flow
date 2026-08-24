@@ -10,6 +10,9 @@ import {
 } from "lucide-react";
 import Reveal from "./Reveal";
 
+// Arquivado por enquanto — reative se fizer sentido voltar com essa lista.
+const SHOW_BENEFITS_STRIP = false;
+
 const FEATURES = [
   {
     icon: MessageSquareText,
@@ -88,21 +91,23 @@ export default function FeaturesSection() {
           ))}
         </div>
 
-        <Reveal delay={0.2}>
-          <div className="mx-auto mt-14 max-w-3xl rounded-2xl border border-line bg-panel/40 p-7 sm:p-8">
-            <p className="text-center text-xs font-bold uppercase tracking-wide text-ink/55">
-              O que isso significa para o seu dia a dia
-            </p>
-            <ul className="mx-auto mt-5 grid max-w-xl grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2">
-              {BENEFITS.map((benefit) => (
-                <li key={benefit} className="flex items-start gap-2.5 text-sm text-ink/70">
-                  <Check className="mt-0.5 size-4 shrink-0 text-brand-2" />
-                  {benefit}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </Reveal>
+        {SHOW_BENEFITS_STRIP && (
+          <Reveal delay={0.2}>
+            <div className="mx-auto mt-14 max-w-3xl rounded-2xl border border-line bg-panel/40 p-7 sm:p-8">
+              <p className="text-center text-xs font-bold uppercase tracking-wide text-ink/55">
+                O que isso significa para o seu dia a dia
+              </p>
+              <ul className="mx-auto mt-5 grid max-w-xl grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2">
+                {BENEFITS.map((benefit) => (
+                  <li key={benefit} className="flex items-start gap-2.5 text-sm text-ink/70">
+                    <Check className="mt-0.5 size-4 shrink-0 text-brand-2" />
+                    {benefit}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </Reveal>
+        )}
       </div>
     </section>
   );

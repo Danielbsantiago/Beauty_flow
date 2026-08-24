@@ -22,7 +22,7 @@ const FLOW = [
 
 export default function CustomSetupSection() {
   return (
-    <section className="py-20 sm:py-24">
+    <section id="como-funciona" className="py-20 sm:py-24">
       <div className="mx-auto max-w-4xl px-5 text-center sm:px-8">
         <Reveal>
           <Badge icon={Sparkles}>Não é um bot genérico</Badge>

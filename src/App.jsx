@@ -2,8 +2,6 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ProblemSection from "./components/ProblemSection";
 import CustomSetupSection from "./components/CustomSetupSection";
-import SmartSchedulingSection from "./components/SmartSchedulingSection";
-import SolutionSection from "./components/SolutionSection";
 import FeaturesSection from "./components/FeaturesSection";
 import AudienceSection from "./components/AudienceSection";
 import ReactivationSection from "./components/ReactivationSection";
@@ -24,8 +22,6 @@ function App() {
         <Hero />
         <CustomSetupSection />
         <ProblemSection />
-        <SmartSchedulingSection />
-        <SolutionSection />
         <FeaturesSection />
         <AudienceSection />
         <ReactivationSection />
