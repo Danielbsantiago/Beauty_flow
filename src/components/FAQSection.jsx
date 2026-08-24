@@ -12,10 +12,6 @@ const FAQ_ITEMS = [
     answer: "Sim. Toda a automação acontece dentro do WhatsApp, do jeito que seus clientes já usam.",
   },
   {
-    question: "Meu número pode ser bloqueado pelo WhatsApp?",
-    answer: "Não. A conexão é feita pela forma oficial da Meta (dona do WhatsApp), o que reduz bastante esse risco.",
-  },
-  {
     question: "Posso continuar atendendo manualmente?",
     answer: "Sim. A automação ajuda nos momentos em que você não pode responder, mas você pode assumir a conversa quando quiser.",
   },
@@ -29,7 +25,7 @@ const FAQ_ITEMS = [
   },
   {
     question: "Em quanto tempo fica funcionando?",
-    answer: "Sua AtendfluxIA fica rodando em até [X] dias úteis após a configuração inicial.",
+    answer: "Sua AtendfluxIA fica rodando em até 7 dias úteis após a configuração inicial.",
   },
   {
     question: "Funciona para o meu tipo de negócio?",
@@ -41,7 +37,7 @@ const FAQ_ITEMS = [
   },
   {
     question: "Como faço para cancelar?",
-    answer: "Basta avisar pelo WhatsApp. Sem multa e sem contrato de fidelidade.",
+    answer: "Basta avisar pelo WhatsApp, que o cancelamento é feito na hora. Sem multa e sem contrato de fidelidade.",
   },
   {
     question: "Quanto custa?",
