@@ -15,10 +15,6 @@ export default function ProofSection() {
           <h2 className="text-balance font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             Prova real, não só promessa.
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-base text-ink/60">
-            Espaço reservado para depoimentos, conversas reais e números do
-            seu próprio negócio.
-          </p>
         </Reveal>
 
         <Reveal delay={0.1}>
