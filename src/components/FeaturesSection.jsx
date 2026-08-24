@@ -14,12 +14,12 @@ const FEATURES = [
   {
     icon: MessageSquareText,
     title: "Atendimento inteligente",
-    text: "Atenda seus clientes automaticamente, 24 horas por dia, seguindo as orientações da sua empresa.",
+    text: "Atende seus clientes automaticamente, 24 horas por dia, seguindo as orientações da sua empresa.",
   },
   {
     icon: CalendarClock,
     title: "Agendamento inteligente",
-    text: "Consulte disponibilidade e encontre horários de acordo com seus serviços e profissionais.",
+    text: "Consulta disponibilidade e encontra horários de acordo com seus serviços e profissionais.",
   },
   {
     icon: RefreshCcw,
@@ -29,12 +29,12 @@ const FEATURES = [
   {
     icon: BellRing,
     title: "Lembretes automáticos",
-    text: "Envie lembretes antes do atendimento e reduza esquecimentos.",
+    text: "Envia lembretes antes do atendimento e reduz os esquecimentos.",
   },
   {
     icon: CheckCircle2,
     title: "Confirmação",
-    text: "Confirme automaticamente a presença do cliente antes do horário.",
+    text: "Confirma automaticamente a presença do cliente antes do horário.",
   },
   {
     icon: Star,
@@ -44,7 +44,7 @@ const FEATURES = [
   {
     icon: RotateCcw,
     title: "Reativação",
-    text: "Entre em contato automaticamente com clientes que estão há algum tempo sem voltar.",
+    text: "Entra em contato automaticamente com clientes que estão há algum tempo sem voltar.",
   },
 ];
 
