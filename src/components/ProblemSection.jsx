@@ -1,12 +1,5 @@
-import { Briefcase, MessageSquare, Hourglass, XCircle, ArrowRight, ArrowDown, Clock3, Repeat, Eye, Heart } from "lucide-react";
+import { Clock3, Repeat, Eye, Heart } from "lucide-react";
 import Reveal from "./Reveal";
-
-const FLOW = [
-  { icon: Briefcase, label: "Você trabalhando" },
-  { icon: MessageSquare, label: "Novas mensagens" },
-  { icon: Hourglass, label: "Cliente esperando" },
-  { icon: XCircle, label: "Cliente perdido" },
-];
 
 const PROBLEMS = [
   {
@@ -46,30 +39,8 @@ export default function ProblemSection() {
           </h2>
         </Reveal>
 
-        <div className="mx-auto mt-10 flex max-w-3xl flex-col items-center gap-2 sm:flex-row sm:items-stretch sm:justify-between sm:gap-0">
-          {FLOW.map((step, i) => (
-            <div key={step.label} className="flex flex-col items-center sm:flex-1">
-              <Reveal delay={i * 0.08} className="flex flex-col items-center text-center">
-                <div className="flex size-12 items-center justify-center rounded-xl border border-line bg-panel text-ink/55">
-                  <step.icon className="size-5" strokeWidth={1.75} />
-                </div>
-                <p className="mt-2 max-w-[6rem] text-[11px] font-semibold text-ink/65">
-                  {step.label}
-                </p>
-              </Reveal>
-
-              {i < FLOW.length - 1 && (
-                <Reveal delay={i * 0.08 + 0.04} className="my-1 text-ink/20 sm:my-0 sm:flex sm:flex-1 sm:items-center sm:justify-center">
-                  <ArrowDown className="size-4 sm:hidden" />
-                  <ArrowRight className="hidden size-4 sm:block" />
-                </Reveal>
-              )}
-            </div>
-          ))}
-        </div>
-
-        <Reveal delay={0.2}>
-          <p className="mx-auto mt-8 max-w-md text-balance font-display text-lg font-semibold text-gradient">
+        <Reveal delay={0.1}>
+          <p className="mx-auto mt-6 max-w-md text-balance font-display text-lg font-semibold text-gradient">
             É aí que a AtendfluxIA entra.
           </p>
         </Reveal>

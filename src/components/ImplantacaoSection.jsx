@@ -36,8 +36,7 @@ export default function ImplantacaoSection() {
         <Reveal>
           <Badge icon={Users2}>Implantação personalizada</Badge>
           <h2 className="text-balance mt-6 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-            Você não precisa aprender a configurar uma IA. Nós fazemos tudo
-            para você.
+            Nós configuramos a IA. Fazemos tudo para você.
           </h2>
         </Reveal>
 
