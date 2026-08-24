@@ -21,7 +21,7 @@ const FAQ_ITEMS = [
   },
   {
     question: "Preciso entender de tecnologia?",
-    answer: "Não. Você configura uma vez com a nossa ajuda e a IA cuida do resto.",
+    answer: "Não. Nós configuramos uma vez com as suas informações e a IA cuida do resto.",
   },
   {
     question: "Em quanto tempo fica funcionando?",
