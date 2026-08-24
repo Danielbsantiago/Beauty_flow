@@ -144,7 +144,7 @@ export default function PricingSection() {
           <div className="mx-auto mt-10 flex max-w-2xl flex-col items-center gap-3 text-center sm:flex-row sm:justify-center sm:gap-8">
             <span className="inline-flex items-center gap-2 text-sm font-medium text-ink/60">
               <Timer className="size-4 text-brand-2" />
-              Rodando em até [X] dias
+              Rodando em até 7 dias
             </span>
             <span className="inline-flex items-center gap-2 text-sm font-medium text-ink/60">
               <ShieldCheck className="size-4 text-brand-2" />
