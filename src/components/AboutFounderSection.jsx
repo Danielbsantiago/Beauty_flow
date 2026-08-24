@@ -1,4 +1,3 @@
-import { User } from "lucide-react";
 import Reveal from "./Reveal";
 
 export default function AboutFounderSection() {
@@ -6,9 +5,11 @@ export default function AboutFounderSection() {
     <section className="py-20 sm:py-24">
       <div className="mx-auto max-w-3xl px-5 sm:px-8">
         <Reveal className="flex flex-col items-center gap-6 text-center sm:flex-row sm:text-left">
-          <span className="flex size-24 shrink-0 items-center justify-center rounded-full border border-dashed border-line text-ink/30">
-            <User className="size-9" />
-          </span>
+          <img
+            src="/founder-daniel.jpg"
+            alt="Daniel, fundador da AtendfluxIA"
+            className="size-24 shrink-0 rounded-full object-cover ring-1 ring-line"
+          />
           <div>
             <p className="text-xs font-bold uppercase tracking-wide text-ink/55">
               Quem está por trás
