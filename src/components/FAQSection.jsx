@@ -41,7 +41,7 @@ const FAQ_ITEMS = [
   },
   {
     question: "Quanto custa?",
-    answer: "Os planos começam em R$149/mês, com 7 dias grátis para testar.",
+    answer: "Os planos começam em R$149/mês, com 10 dias grátis para testar.",
   },
 ];
 

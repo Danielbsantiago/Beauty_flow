@@ -19,7 +19,7 @@ export default function Hero() {
       <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-5 sm:px-8 lg:grid-cols-2 lg:gap-12">
         <div>
           <Reveal>
-            <Badge icon={Sparkles}>7 dias grátis para experimentar</Badge>
+            <Badge icon={Sparkles}>10 dias grátis para experimentar</Badge>
           </Reveal>
 
           <Reveal delay={0.1}>

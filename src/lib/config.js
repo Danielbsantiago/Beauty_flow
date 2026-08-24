@@ -8,7 +8,7 @@ export const SITE = {
   whatsappNumber: "5561981787169",
 
   // Mensagem pré-preenchida enviada ao clicar nos CTAs principais.
-  whatsappMessage: "Olá! Quero começar grátis por 7 dias na AtendfluxIA.",
+  whatsappMessage: "Olá! Quero começar grátis por 10 dias na AtendfluxIA.",
 
   email: "atendfluxia@gmail.com",
 

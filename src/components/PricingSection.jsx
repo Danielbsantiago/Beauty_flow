@@ -95,14 +95,14 @@ function PlanCard({ plan }) {
 
       <div className="mt-8 pt-2 lg:mt-auto">
         <Button
-          href={buildWhatsappLink(`Olá! Quero começar grátis por 7 dias na AtendfluxIA, no plano ${plan.name}.`)}
+          href={buildWhatsappLink(`Olá! Quero começar grátis por 10 dias na AtendfluxIA, no plano ${plan.name}.`)}
           target="_blank"
           rel="noopener noreferrer"
           variant={plan.highlighted ? "primary" : "secondary"}
           className="w-full"
           icon={ArrowRight}
         >
-          Começar grátis por 7 dias
+          Começar grátis por 10 dias
         </Button>
       </div>
     </div>
@@ -128,7 +128,7 @@ export default function PricingSection() {
             Escolha o plano ideal para o seu negócio.
           </h2>
           <p className="mt-4 text-base font-medium text-ink/60">
-            Comece com 7 dias grátis.
+            Comece com 10 dias grátis.
           </p>
         </Reveal>
 
