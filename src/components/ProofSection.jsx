@@ -1,6 +1,9 @@
 import { Quote, Image as ImageIcon, TrendingUp } from "lucide-react";
 import Reveal from "./Reveal";
 
+// Oculto até termos prints reais de conversa e números reais para mostrar.
+const SHOW_PLACEHOLDERS = false;
+
 const SCREENSHOTS = [1, 2];
 const METRICS = [
   { example: "agendamentos/mês" },
@@ -42,36 +45,40 @@ export default function ProofSection() {
           </div>
         </Reveal>
 
-        <Reveal delay={0.2}>
-          <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
-            {SCREENSHOTS.map((n) => (
-              <div
-                key={n}
-                className="flex h-48 flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-line bg-panel/40 text-ink/55"
-              >
-                <ImageIcon className="size-6" />
-                <span className="text-xs font-medium">Print real de conversa {n}</span>
+        {SHOW_PLACEHOLDERS && (
+          <>
+            <Reveal delay={0.2}>
+              <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
+                {SCREENSHOTS.map((n) => (
+                  <div
+                    key={n}
+                    className="flex h-48 flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-line bg-panel/40 text-ink/55"
+                  >
+                    <ImageIcon className="size-6" />
+                    <span className="text-xs font-medium">Print real de conversa {n}</span>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </Reveal>
+            </Reveal>
 
-        <Reveal delay={0.3}>
-          <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
-            {METRICS.map((metric, i) => (
-              <div
-                key={metric.example}
-                className="flex flex-col items-center justify-center gap-1 rounded-2xl border border-dashed border-line bg-panel/40 py-8 text-center text-ink/55"
-              >
-                <TrendingUp className="size-5" />
-                <span className="font-display text-2xl font-bold">[Número]</span>
-                <span className="text-xs font-medium">
-                  Métrica real {i + 1} — ex: {metric.example}
-                </span>
+            <Reveal delay={0.3}>
+              <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
+                {METRICS.map((metric, i) => (
+                  <div
+                    key={metric.example}
+                    className="flex flex-col items-center justify-center gap-1 rounded-2xl border border-dashed border-line bg-panel/40 py-8 text-center text-ink/55"
+                  >
+                    <TrendingUp className="size-5" />
+                    <span className="font-display text-2xl font-bold">[Número]</span>
+                    <span className="text-xs font-medium">
+                      Métrica real {i + 1} — ex: {metric.example}
+                    </span>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </Reveal>
+            </Reveal>
+          </>
+        )}
       </div>
     </section>
   );
