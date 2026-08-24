@@ -19,7 +19,7 @@ const PROBLEMS = [
     icon: Repeat,
     title: "Tarefas repetitivas",
     text: "Tempo demais é gasto fazendo as mesmas coisas todos os dias.",
-    solution: "assume as tarefas repetitivas do dia a dia.",
+    solution: "automatiza as tarefas repetitivas do dia a dia, como confirmações, lembretes e mensagens pós-atendimento.",
   },
   {
     icon: Eye,
