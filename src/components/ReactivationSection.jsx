@@ -34,7 +34,7 @@ export default function ReactivationSection() {
                 <span className="block text-sm font-semibold text-ink">Maria</span>
                 <span className="flex items-center gap-1 text-[11px] text-ink/60">
                   <Clock className="size-3" />
-                  Última compra: 74 dias atrás
+                  Última compra: 22 dias atrás
                 </span>
               </span>
             </div>
@@ -50,8 +50,9 @@ export default function ReactivationSection() {
 
             <PhoneFrame className="w-[240px]">
               <Bubble from="assistant" time="09:15">
-                Oi, Maria! 😊 Faz um tempinho que não falamos. Temos
-                novidades que talvez você goste. Quer dar uma olhada?
+                Oi, Maria! 😊 Tudo bem? Faz 22 dias que você fez seu último
+                atendimento. Já está na hora de retocar e temos horários
+                disponíveis hoje. Quer que eu agende um horário para você?
               </Bubble>
             </PhoneFrame>
 
