@@ -59,8 +59,8 @@ export default function Hero() {
           <Reveal delay={0.4}>
             <p className="mt-5 flex items-start gap-2 text-sm leading-relaxed text-ink/50">
               <Wand2 className="mt-0.5 size-4 shrink-0 text-brand-2" />
-              Não é um chatbot genérico. Configuramos a IA de acordo com a
-              forma como sua empresa trabalha.
+              Uma IA personalizada para trabalhar de acordo com a forma como
+              sua empresa funciona.
             </p>
           </Reveal>
         </div>
