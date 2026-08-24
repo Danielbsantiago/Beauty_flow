@@ -6,26 +6,26 @@ const STEPS = [
   {
     number: "01",
     icon: MessageCircle,
-    title: "Conversamos",
-    text: "Entendemos como sua empresa funciona.",
+    title: "Fazemos uma reunião",
+    text: "Entendemos como sua empresa funciona, seus serviços e como você atende seus clientes.",
   },
   {
     number: "02",
     icon: SlidersHorizontal,
     title: "Configuramos",
-    text: "Ensinamos à IA seus serviços, horários, regras e forma de atendimento.",
+    text: "Ensinamos à IA seus serviços, horários, regras e a forma como sua empresa atende.",
   },
   {
     number: "03",
     icon: FlaskConical,
     title: "Testamos",
-    text: "Simulamos situações reais antes de colocar o assistente para atender seus clientes.",
+    text: "Testamos situações reais até você aprovar o atendimento e sentir que a IA está pronta para atender seus clientes.",
   },
   {
     number: "04",
     icon: Rocket,
     title: "Ativamos",
-    text: "Seu WhatsApp começa a atender automaticamente.",
+    text: "Seu WhatsApp começa a atender e trabalhar automaticamente para você.",
   },
 ];
 
@@ -36,8 +36,8 @@ export default function ImplantacaoSection() {
         <Reveal>
           <Badge icon={Users2}>Implantação personalizada</Badge>
           <h2 className="text-balance mt-6 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-            Você não precisa aprender a configurar uma IA.
-            <br className="hidden sm:block" /> Nós fazemos isso com você.
+            Você não precisa aprender a configurar uma IA. Nós fazemos tudo
+            para você.
           </h2>
         </Reveal>
 
