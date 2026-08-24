@@ -10,8 +10,7 @@ export const SITE = {
   // Mensagem pré-preenchida enviada ao clicar nos CTAs principais.
   whatsappMessage: "Olá! Quero começar grátis por 7 dias na AtendfluxIA.",
 
-  // TODO: troque pelo e-mail real de contato.
-  email: "contato@atendfluxia.com.br",
+  email: "atendfluxia@gmail.com",
 
   // TODO: troque pelo @ real do Instagram.
   instagram: "https://instagram.com/atendfluxia",

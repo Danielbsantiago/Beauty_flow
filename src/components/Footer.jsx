@@ -1,4 +1,4 @@
-import { MessageCircle, Camera, Mail } from "lucide-react";
+import { MessageCircle, Mail } from "lucide-react";
 import Logo from "./Logo";
 import { SITE, buildWhatsappLink } from "../lib/config";
 
@@ -37,15 +37,6 @@ export default function Footer() {
                 className="flex size-10 items-center justify-center rounded-full bg-white/5 text-ink/60 transition-colors hover:bg-brand hover:text-canvas"
               >
                 <MessageCircle className="size-4.5" />
-              </a>
-              <a
-                href={SITE.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-                className="flex size-10 items-center justify-center rounded-full bg-white/5 text-ink/60 transition-colors hover:bg-brand hover:text-canvas"
-              >
-                <Camera className="size-4.5" />
               </a>
               <a
                 href={`mailto:${SITE.email}`}
