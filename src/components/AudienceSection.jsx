@@ -1,7 +1,8 @@
 import { Scissors, UtensilsCrossed, ShoppingBag, Wrench } from "lucide-react";
 import Reveal from "./Reveal";
 
-const SECONDARY = [
+const NICHES = [
+  { icon: Scissors, label: "Salões e barbearias" },
   { icon: UtensilsCrossed, label: "Alimentação" },
   { icon: ShoppingBag, label: "Produtos" },
   { icon: Wrench, label: "Prestadores de serviço" },
@@ -17,33 +18,20 @@ export default function AudienceSection() {
           </h2>
         </Reveal>
 
-        <Reveal delay={0.1}>
-          <div className="mx-auto mt-10 flex max-w-sm items-center gap-4 rounded-2xl border border-brand/25 bg-gradient-to-br from-brand-soft to-transparent p-6 text-left">
-            <span className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-brand to-brand-2 text-canvas">
-              <Scissors className="size-7" strokeWidth={1.75} />
-            </span>
-            <div>
-              <p className="font-display text-lg font-semibold text-ink">
-                Salões e barbearias
-              </p>
-              <p className="text-sm text-ink/60">Onde a AtendfluxIA nasceu.</p>
-            </div>
-          </div>
-        </Reveal>
-
-        <Reveal delay={0.2}>
-          <div className="mx-auto mt-6 flex max-w-xl flex-wrap items-center justify-center gap-x-6 gap-y-3">
-            <span className="text-xs font-semibold uppercase tracking-wide text-ink/55">
-              Também funciona para
-            </span>
-            {SECONDARY.map((item) => (
-              <span key={item.label} className="inline-flex items-center gap-1.5 text-sm font-medium text-ink/60">
-                <item.icon className="size-4 text-ink/40" />
-                {item.label}
-              </span>
-            ))}
-          </div>
-        </Reveal>
+        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-2 gap-4 sm:grid-cols-4">
+          {NICHES.map((niche, i) => (
+            <Reveal key={niche.label} delay={i * 0.08}>
+              <div className="flex h-full flex-col items-center gap-3 rounded-2xl border border-brand/25 bg-gradient-to-br from-brand-soft to-transparent p-5 text-center">
+                <span className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-brand to-brand-2 text-canvas">
+                  <niche.icon className="size-7" strokeWidth={1.75} />
+                </span>
+                <p className="font-display text-sm font-semibold leading-snug text-ink">
+                  {niche.label}
+                </p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
       </div>
     </section>
   );
