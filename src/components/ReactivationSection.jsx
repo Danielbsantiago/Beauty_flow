@@ -70,8 +70,7 @@ export default function ReactivationSection() {
             <Info className="mt-0.5 size-4 shrink-0 text-ink/35" />
             <p className="text-xs leading-relaxed text-ink/60">
               A reativação é baseada nos clientes e interações acompanhados
-              pelo sistema após sua implementação — não importa nem recupera
-              automaticamente toda a base antiga do negócio.
+              pelo sistema após sua implementação.
             </p>
           </div>
         </Reveal>
