@@ -2,6 +2,9 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Poppins:wght@700&display=swap" rel="stylesheet" />
     <style>
       * { margin: 0; padding: 0; box-sizing: border-box; }
       html, body {
@@ -23,15 +26,13 @@
         gap: 28px;
       }
       .mark {
-        width: 96px;
-        height: 96px;
-        border-radius: 24px;
-        background: linear-gradient(135deg, #8b6cff, #22d3ee);
+        width: 110px;
+        height: 110px;
         display: flex;
         align-items: center;
         justify-content: center;
       }
-      .mark svg { width: 52px; height: 52px; }
+      .mark svg { width: 110px; height: 110px; }
       .brand {
         font-size: 44px;
         font-weight: 700;
@@ -67,18 +68,25 @@
   <body>
     <div class="wrap">
       <div class="mark">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#09090d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M2 10v3"/>
-          <path d="M6 6v11"/>
-          <path d="M10 3v18"/>
-          <path d="M14 8v7"/>
-          <path d="M18 5v13"/>
-          <path d="M22 10v3"/>
+        <svg viewBox="0 0 36 36">
+          <defs>
+            <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#8b6cff"/>
+              <stop offset="100%" stop-color="#22d3ee"/>
+            </linearGradient>
+          </defs>
+          <path d="M11.7,28.3 L8.55,35.02 L16.95,28.3 Z" fill="url(#g)"/>
+          <circle cx="18" cy="15.7" r="14.7" fill="url(#g)"/>
+          <rect x="9.39" y="13.18" width="2.1" height="5.04" rx="1.05" fill="#09090d"/>
+          <rect x="13.17" y="11.5" width="2.1" height="8.4" rx="1.05" fill="#09090d"/>
+          <rect x="16.95" y="9.82" width="2.1" height="11.76" rx="1.05" fill="#09090d"/>
+          <rect x="20.73" y="11.5" width="2.1" height="8.4" rx="1.05" fill="#09090d"/>
+          <rect x="24.51" y="13.18" width="2.1" height="5.04" rx="1.05" fill="#09090d"/>
         </svg>
       </div>
       <div class="brand">Atendflux<span class="ia">IA</span></div>
-      <div class="headline">Você cuida do seu negócio. <span class="accent">A AtendfluxIA cuida dos seus agendamentos.</span></div>
-      <div class="tagline">Automação de atendimento, vendas e agendamentos pelo WhatsApp</div>
+      <div class="headline">Seu WhatsApp pode <span class="accent">trabalhar por você.</span></div>
+      <div class="tagline">Um assistente virtual personalizado para o seu negócio, direto no WhatsApp</div>
     </div>
   </body>
 </html>
