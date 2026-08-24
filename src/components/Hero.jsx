@@ -1,4 +1,4 @@
-import { Sparkles, ArrowRight, Compass, Wand2 } from "lucide-react";
+import { Sparkles, ArrowRight, Wand2 } from "lucide-react";
 import Badge from "./Badge";
 import Button from "./Button";
 import PhoneFrame, { Bubble, TypingBubble } from "./PhoneFrame";
@@ -40,7 +40,7 @@ export default function Hero() {
           </Reveal>
 
           <Reveal delay={0.3}>
-            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-9">
               <Button
                 href={buildWhatsappLink("Olá! Quero conhecer a AtendfluxIA.")}
                 target="_blank"
@@ -49,9 +49,6 @@ export default function Hero() {
                 icon={ArrowRight}
               >
                 Quero conhecer o AtendfluxIA
-              </Button>
-              <Button href="#como-funciona" variant="secondary" size="lg" icon={Compass} iconPosition="left">
-                Ver como funciona
               </Button>
             </div>
           </Reveal>

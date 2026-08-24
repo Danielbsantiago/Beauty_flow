@@ -12,7 +12,6 @@ import FAQSection from "./components/FAQSection";
 import PricingSection from "./components/PricingSection";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
-import MobileStickyBar from "./components/MobileStickyBar";
 
 function App() {
   return (
@@ -33,7 +32,6 @@ function App() {
         <FinalCTA />
       </main>
       <Footer />
-      <MobileStickyBar />
     </div>
   );
 }

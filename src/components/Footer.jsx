@@ -19,7 +19,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-line bg-panel pb-8 pt-16 max-lg:pb-28">
+    <footer className="border-t border-line bg-panel pb-8 pt-16">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
